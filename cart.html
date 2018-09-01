@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Cilory Store</title>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Owl Carousel Core CSS -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Font Awesome Core CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Range Slider Core CSS -->
+	<link rel="stylesheet" href="css/ion.rangeSlider.css">
+	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
+	<!-- Developer Custom CSS -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+<body>
+
+	<!-- Start Project Code  -->
+
+	<div id="menu-sidenav" class="menu-sidenav">
+		<a class="closebtn" onclick="closemenuSidenav()">&times;</a>
+		<div class="sidenav-menu-link">
+			<h5>Shop By</h5>
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">shirt</a></li>
+				<li>
+					<a data-toggle="collapse" href="#second-category">
+						t-shirt <span class="fa fa-angle-right"></span>
+					</a>
+					<div id="second-category" class="collapse">
+						<ul>
+							<li>
+								<a data-toggle="collapse" href="#third-category">
+									NEW T-SHIRT <span class="fa fa-angle-right"></span>
+								</a>
+								<div id="third-category" class="collapse">
+									<ul>
+										<li><a href="#">Normal Shirt</a></li>
+										<li><a href="#">Formal Shirt</a></li>
+										<li><a href="#">Punjabi</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">GONJI STAMP</a></li>
+							<li><a href="#">IDENTITY CRISIS</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href=""><i class="fa fa-shopping-bag"></i> my cart</a></li>
+				<li><a href=""><i class="fa fa-check-circle"></i> checkout</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="sidenav-menu-account">
+			<ul>
+				<li><a href="#">Terms and Condition</a></li>
+				<li><a href="#"><span class="fa fa-user-circle"></span> Reister</a></li>
+				<li><a href="#"><span class="fa fa-sign-in"></span> Login</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="sidenav-menu-social">
+			<ul>
+				<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+				<li><a href="#"><span class="fa fa-instagram"></span></a></li>
+				<li><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Start Top Nav -->
+	<div class="top-nav">
+		<div class="fixed-width">
+			<ul class="nav navbar-nav left-link">
+			
+				<li><a href="" class="topnav-link-bg"><i class="fa fa-phone"></i> 01675963242</a></li>
+				<li><a href="" class="topnav-link-bg">contact</a></li>
+				<li><a href="" class="topnav-link-bg">track order</a></li>
+				<li><a href="" class="btn-link">download app</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right right-link">
+				<li><a href="">Login&nbsp;&nbsp;</a></li>
+				<li><a href="">/ Signup&nbsp;&nbsp;</a></li>
+				<li><a href="">/ My Account</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- End Top Nav -->
+
+	<div class="clearfix"></div>
+	
+	<!-- Start Navbar Section -->
+	<div class="header" id="header">
+		<div class="fixed-width">
+			<div class="top-bar">
+				<div class="row">
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="menu-logo">
+							<a href="">
+								<img src="images/mainlogo.png" alt="Logo">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="menu-searchbox">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<div class="input-group-addon">
+									<a href=""><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="menu-cartbox">
+							<div class="btn-group" role="group">
+								<a href="" class="btn">
+									<i class="fa fa-shopping-cart"></i>Cart
+								</a>
+								<a href="" class="btn">1 Product(s)</a>
+								<!-- <a href="" class="btn">(empty)</a> -->
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="link-bar">
+			<nav class="mainNavbar">
+				<div class="row">
+					<div class="navbar-header">
+						<a class="navbar-brand main-brand" href="#"><i class="fa fa-home"></i></a>
+					</div>
+				
+					<div id="mainNavbar">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="" id="mainCategory" class="dropdown-toggle" data-toggle="dropdown">men</a>
+								<div class="dropdown-menu menu-dropdown">
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+											<h5>t-shirt</h5>
+
+											<ul>
+												<li class="dropdown">
+													<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+														Cats Eye
+													</a>
+													<ul class="dropdown-menu second-dropdown-menu">
+														<li><a href="">new arrivals</a></li>
+														<li><a href="">new arrivals</a></li>
+														<li><a href="">new arrivals</a></li>
+													</ul>
+												</li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+											<h5>winter wear</h5>
+
+											<ul>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+											<h5>winter wear</h5>
+
+											<ul>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+											<h5>winter wear</h5>
+
+											<ul>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+											<h5>winter wear</h5>
+
+											<ul>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+												<li><a href="">new arrivals</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+											<h5>we recommend</h5>
+
+											<a href="">
+												<div class="product-box">
+													<div class="product-photo">
+														<img src="images/vpimg.jpg" class="img-responsive" alt="Product">
+													</div>
+													<div class="product-name">
+														<a href="">it is a long established fact that a reader</a>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><a id="mainCategory" href="">women</a></li>
+							<li><a id="mainCategory" href="">kids</a></li>
+							<li><a id="mainCategory" href="">jewellery</a></li>
+							<li><a id="mainCategory" href="">lingerie</a></li>
+							<li><a id="mainCategory" href="">kurtis</a></li>
+							<li><a id="mainCategory" href="">ethinic suits</a></li>
+							<li><a id="mainCategory" href="">western wear</a></li>
+							<li><a id="mainCategory" href="">t-shirts</a></li>
+							<li><a id="mainCategory" href="">shirts</a></li>
+							<li><a id="mainCategory" href="">winter wear</a></li>
+							<li><a id="mainCategory" href="">personal care</a></li>
+							<li><a id="mainCategory" href="">gifts</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right cart-icon">
+							<li>
+								<a href=""><i class="fa fa-shopping-cart"></i></a>
+								<span>1</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End Navbar Section -->
+
+	<div class="mobile-menu">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-8">
+					<a onclick="openmenuSidenav()"><i class="fa fa-bars"></i>&nbsp;&nbsp;Cilory</a>
+					
+				</div>
+				<div class="col-xs-4">
+					<div class="row">
+						<div class="col-xs-1">
+							<a data-toggle="collapse" data-target="#search-box">
+								<i class="fa fa-search"></i>
+							</a>
+						</div>
+						<div class="col-xs-1"><a href=""><i class="fa fa-user-circle"></i></a></div>
+						<div class="col-xs-1"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="search-box" class="collapse">
+		<form>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Search">
+				<div class="input-group-btn">
+				<button class="btn btn-default" type="submit">
+					<i class="fa fa-search"></i>
+				</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<!-- Start Shopping Cart Section -->
+	<section class="shopping-cart section-padding">
+		<div class="fixed-width">
+			<h5>SHOPPING-CART SUMMARY</h5>
+			<p>Your shopping cart contains: 1 product</p>
+
+			<div class="table-responsive">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+						<th>Product</th>
+						<th>Description</th>
+						<th>Availability</th>
+						<th>Unit price</th>
+						<th>Qty</th>
+						<th></th>
+						<th>Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<form action="#">
+							<tr>
+								<td>
+									<img class="img-responsive" src="images/cp-front.jpg">
+								</td>
+								<td>
+									<a href="#">Product Title</a>
+									<p><small>Product Code</small></p>
+								</td>
+								<td>In Stock</td>
+								<td>BDT 500</td>
+								<td>
+									
+									<input class="form-control" type="number" min="0" value="1" step="1">
+									
+								</td>
+								<td>
+									<span>
+										<a href="#"><i class="fa fa-refresh"></i></a>
+									</span>
+									<span>
+										<a href="#"><i class="fa fa-trash-o"></i></a>
+									</span>
+								</td>
+								<td>BDT 500</td>
+							</tr>
+						</form> 
+					</tbody>
+				</table>
+			</div>
+
+			<div class="shopping-cart-footer">
+				<div class="shopping-button">
+					<a class="btn btn-product" href="#">
+						Continiue <i class="fa fa-shopping-cart"></i>
+					</a>
+					<a class="btn btn-product" href="#">
+						Checkout <i class="fa fa-check-circle-o"></i>
+					</a>
+				</div>
+				<div class="shopping-total">
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								<tr>
+								<td><b>Total</b></td>
+								<td><b>500.00</b></td>
+								</tr>
+								<tr>
+								<td><b>Subtotal</b></td>
+								<td><b>500.00</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Shopping Cart Section -->
+
+	<!-- Start Long Footer Section -->
+	<section class="long-footer">
+		<div class="fixed-width">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>my account</h5>
+					<ul>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>information</h5>
+					<ul>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+						<li><a href="">link here</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>contact us</h5>
+					<a href="">Cilory.com</a>
+					<p>
+						Dew Solutions Pvt Ltd <br>
+						1017, JMD Megapolis, 10th Floor <br>
+						Sohna Road, Sector 48 <br>
+						Gurgaon -122018 <br>
+						India.<br>
+						Tel: 0124 4745 777 (9 am - 8 pm Mon-Sat)<br>
+						cs@cilory.com
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<h5>follow us</h5>
+					<div class="social">
+						<ul>
+							<li>
+							
+								<a href="#" class="face"><i class="fa fa-facebook"></i></a>
+							
+								<a href="#" class="twit"><i class="fa fa-twitter"></i></a>
+							
+								<a href="#" class="tube"><i class="fa fa-youtube"></i></a>
+							
+								<a href="#" class="drib"><i class="fa fa-dribbble"></i></a>
+								
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="footer-category-box">
+				<h5>categories</h5>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+				<a href="">link name</a>
+			</div>
+		</div>
+	</section>
+	<!-- End Long Footer Section -->
+	
+	<!-- Start Footer Section -->
+	<footer>
+		<div class="fixed-width">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<p>
+						&copy; 2018 Cilory | All Right Reserve.Design by
+						<a href="https://www.storrea.com/">Storrea</a>
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<img class="img-responsive" src="images/payment.png" alt="Payment">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+	<!-- End Project Code  -->
+
+	<!-- Your Needed JavaScript Library Here -->
+
+	<!-- JQuery Core JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap Core JS -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Owl Carousel Core JS -->
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<!-- Range Slider Core JS -->
+	<script type="text/javascript" src="js/ion.rangeSlider.js"></script>
+	<!-- ElevateZoom Core JS -->
+	<script type="text/javascript" src="js/elevateZoom.min.js"></script>
+	<!-- Developer Custom JS -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- End of All JavaScript Library -->
+</body>
+</html>
